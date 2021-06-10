@@ -1,0 +1,5 @@
+CREATE TABLE animals (
+id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, age INTEGER, friends TEXT
+);
+INSERT INTO animals (name, age, friends) VALUES ("Penguin", 3, "Bracken");
+SELECT * FROM animals;
